@@ -18,7 +18,7 @@ To get the latest version:
 ## Usage
 For example usage, look at file    in this repository.
 
-
+```markdown
 @software{galvan_fraile_nn4cast_manual,
   author       = {Galvan-Fraile et al},
   title        = {NN4CAST_manual},
@@ -29,3 +29,4 @@ For example usage, look at file    in this repository.
   doi          = {doi},
   url          = {url}
 }
+```
