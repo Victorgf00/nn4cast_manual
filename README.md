@@ -15,10 +15,6 @@ To get the latest version:
     (<your-env-name>) $ conda install pydot graphviz
 ```
 
-To update to the latest version:
-```console
-    (<your-env-name>) $ pip install --upgrade git+https://github.com/Victorgf00/nn4cast
-
 ## Usage
 For example usage, look at file    in this repository.
 
