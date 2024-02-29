@@ -20,13 +20,13 @@ For example usage, look at file    in this repository.
 
 ```markdown
 @software{galvan_fraile_nn4cast_manual,
-  author       = {Galvan-Fraile et al},
-  title        = {NN4CAST_manual},
-  month        = mar,
-  year         = 2024,
-  publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {doi},
-  url          = {url}
+  author = {Galvan-Fraile et al},
+  title = {NN4CAST_manual},
+  month = mar,
+  year = 2024,
+  publisher = {Zenodo},
+  version = {1.0.0},
+  doi = {doi},
+  url = {url}
 }
 ```
