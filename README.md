@@ -18,15 +18,24 @@ To get the latest version:
 ## Usage
 For example usage, look at file    in this repository.
 
+
+## How to cite this material
+
+DOI: https://doi.org/10.5281/zenodo.10730811
+
+BibTex:
 ```markdown
-@software{galvan_fraile_nn4cast_manual,
-  author = {Galvan-Fraile et al},
-  title = {NN4CAST_manual},
-  month = mar,
-  year = 2024,
-  publisher = {Zenodo},
-  version = {1.0.0},
-  doi = {doi},
-  url = {url}
+@software{galvan_fraile_2024_10730811,
+  author       = {Galván-Fraile, Víctor and
+                  Martín-del-Rey, Marta and
+                  Rodríguez-Fonseca, Belén and
+                  Polo-Sánchez, Irene},
+  title        = {NN4CAST\_manual},
+  month        = mar,
+  year         = 2024,
+  publisher    = {Zenodo},
+  version      = {1.0.13},
+  doi          = {10.5281/zenodo.10730811},
+  url          = {https://doi.org/10.5281/zenodo.10730811}
 }
 ```
