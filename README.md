@@ -8,20 +8,19 @@
 
 To get the latest version:
 ```console
-    $ conda create -n <your-env-name> python=3.9.16
+    $ conda create -n <your-env-name>
     $ conda activate <your-env-name>
-    (<your-env-name>) $ conda install cartopy
+    (<your-env-name>) $ conda install cartopy python=3.9.15
     (<your-env-name>) $ pip install git+https://github.com/Victorgf00/nn4cast
-    (<your-env-name>) $ conda install pydot graphviz
 ```
 
 ## Usage
-For example usage, look at file    in this repository.
+For example usage, look at file in this repository.
 
 
 ## How to cite this material
 
-DOI: https://doi.org/10.5281/zenodo.10730811
+DOI: https://doi.org/10.5281/zenodo.11636275
 
 BibTex:
 ```markdown
@@ -29,12 +28,12 @@ BibTex:
   author       = {Galván-Fraile, Víctor and
                   Martín-del-Rey, Marta and
                   Rodríguez-Fonseca, Belén and
-                  Polo-Sánchez, Irene},
+                  Polo-Sánchez, Irene and Navarro-García, María},
   title        = {NN4CAST\_manual},
-  month        = mar,
+  month        = jun,
   year         = 2024,
   publisher    = {Zenodo},
-  version      = {1.0.13},
+  version      = {1.0.19},
   doi          = {10.5281/zenodo.10730811},
   url          = {https://doi.org/10.5281/zenodo.10730811}
 }
