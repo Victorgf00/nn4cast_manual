@@ -1,0 +1,114 @@
+activations:
+- &id001 !!python/name:keras.activations.elu ''
+- *id001
+- *id001
+detrend_x: true
+detrend_x_window: 15
+detrend_y: true
+detrend_y_window: 15
+dropout_rates:
+- 0.1
+epochs: 2500
+jump_year: 0
+kernel_regularizer: l2
+lat_lims_x:
+- 75
+- -20
+lat_lims_y:
+- 75
+- -20
+layer_sizes:
+- 1024
+- 256
+- 64
+learning_rate: 0.0001
+lon_lims_x:
+- 120
+- 280
+lon_lims_y:
+- -180
+- 180
+mapbar: bwr
+mean_seasonal_method_x: true
+mean_seasonal_method_y: true
+months_skip_x:
+- None
+months_skip_y:
+- None
+months_x:
+- 9
+- 10
+months_y:
+- 11
+- 12
+name_x: sst
+name_y: msl
+num_conv_layers: 0
+outputs_path: /home/victor/Desktop/nn4cast_paper/Outputs/
+p_value: 0.1
+path: /home/victor/Desktop/prueba_nn4cast/Datasets/
+path_x: HadISST1_sst_1870-2019.nc
+path_y: slp_ERA5_1940-2023.nc
+region_predictor: Pacific
+regrid_degree_x: 2
+regrid_degree_y: 2
+scale_x: 1
+scale_y: 100
+testing_years:
+- 2000
+- 2019
+time_lims:
+- 1940
+- 2019
+train_years:
+- 1940
+- 1989
+units_x: '[$^{\circ} C$]'
+units_y: '[$hPa$]'
+use_batch_norm: true
+use_dropout: true
+use_initial_skip_connections: false
+use_initializer: true
+use_intermediate_skip_connections: false
+validation_years:
+- 1990
+- 1999
+years_finally: !!python/object/apply:numpy.core.multiarray._reconstruct
+  args:
+  - !!python/name:numpy.ndarray ''
+  - !!python/tuple
+    - 0
+  - !!binary |
+    Yg==
+  state: !!python/tuple
+  - 1
+  - !!python/tuple
+    - 80
+  - !!python/object/apply:numpy.dtype
+    args:
+    - i8
+    - false
+    - true
+    state: !!python/tuple
+    - 3
+    - <
+    - null
+    - null
+    - null
+    - -1
+    - -1
+    - 0
+  - false
+  - !!binary |
+    lAcAAAAAAACVBwAAAAAAAJYHAAAAAAAAlwcAAAAAAACYBwAAAAAAAJkHAAAAAAAAmgcAAAAAAACb
+    BwAAAAAAAJwHAAAAAAAAnQcAAAAAAACeBwAAAAAAAJ8HAAAAAAAAoAcAAAAAAAChBwAAAAAAAKIH
+    AAAAAAAAowcAAAAAAACkBwAAAAAAAKUHAAAAAAAApgcAAAAAAACnBwAAAAAAAKgHAAAAAAAAqQcA
+    AAAAAACqBwAAAAAAAKsHAAAAAAAArAcAAAAAAACtBwAAAAAAAK4HAAAAAAAArwcAAAAAAACwBwAA
+    AAAAALEHAAAAAAAAsgcAAAAAAACzBwAAAAAAALQHAAAAAAAAtQcAAAAAAAC2BwAAAAAAALcHAAAA
+    AAAAuAcAAAAAAAC5BwAAAAAAALoHAAAAAAAAuwcAAAAAAAC8BwAAAAAAAL0HAAAAAAAAvgcAAAAA
+    AAC/BwAAAAAAAMAHAAAAAAAAwQcAAAAAAADCBwAAAAAAAMMHAAAAAAAAxAcAAAAAAADFBwAAAAAA
+    AMYHAAAAAAAAxwcAAAAAAADIBwAAAAAAAMkHAAAAAAAAygcAAAAAAADLBwAAAAAAAMwHAAAAAAAA
+    zQcAAAAAAADOBwAAAAAAAM8HAAAAAAAA0AcAAAAAAADRBwAAAAAAANIHAAAAAAAA0wcAAAAAAADU
+    BwAAAAAAANUHAAAAAAAA1gcAAAAAAADXBwAAAAAAANgHAAAAAAAA2QcAAAAAAADaBwAAAAAAANsH
+    AAAAAAAA3AcAAAAAAADdBwAAAAAAAN4HAAAAAAAA3wcAAAAAAADgBwAAAAAAAOEHAAAAAAAA4gcA
+    AAAAAADjBwAAAAAAAA==
